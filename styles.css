@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: burlywood;
+  padding: 8px 8px 8px 8px;
 }
 .container {
   width: 100%;
@@ -21,7 +22,7 @@ body {
   background-color: white;
   margin: auto;
   border-radius: 15px;
-  padding: 8px;
+  padding: 8px 8px 8px 8px;
 }
 img,
 .image {
@@ -60,28 +61,36 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
   /* margin-top: 20px; */
 }
 
 .classes {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  /* margin: auto; */
 }
 .calo {
   display: flex;
-  gap: 60px;
+  gap: 40px;
+  /* margin: auto; */
 }
 .carb {
   display: flex;
-  gap: 76px;
+  gap: 95px;
+  /* margin: auto; */
 }
 .protein {
   display: flex;
-  gap: 65px;
+  gap: 75px;
+  /* margin: auto; */
 }
 .fat {
   display: flex;
-  gap: 94px;
+  gap: 104px;
+  /* margin: auto; */
 }
 
 @media (max-width: 468px) {
