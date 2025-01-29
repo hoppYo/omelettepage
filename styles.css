@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=Bubblegum+Sans&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Young+Serif&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=Bubblegum+Sans&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Young+Serif&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,24 +13,24 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Outfit", serif;
+  font-weight: 400;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
-  padding: 8px 8px 8px 8px;
+  background-color:  hsl(30, 54%, 90%);
 }
 .container {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   min-height: 70vh;
   background-color: white;
   margin: auto;
   border-radius: 15px;
-  padding: 8px 8px 8px 8px;
+  padding: 15px 30px 15px 30px;
+ 
 }
 img,
 .image {
@@ -32,75 +40,71 @@ img,
   block-size: auto;
 }
 h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 900;
+  font-style: normal;
   margin-block: 10px;
-  color: maroon;
 }
+
 p {
-  font-size: 10px;
+  font-size: 14px;
+  color: rgb(80, 79, 79);
 }
 
 .preparation {
   padding: 7px;
   margin-top: 10px;
-  background-color: rgb(244, 211, 217);
+  background-color: hsl(330, 100%, 98%);
   border-radius: 10px;
+  line-height: 1.5;
 }
-h5,
+h5 {
+  margin-inline-start: 20px;
+  color: hsl(332, 51%, 32%);
+}
 li {
   margin-inline-start: 20px;
 }
 h3 {
   margin-block: 10px;
-  color: maroon;
+  color: hsl(14, 45%, 36%);
+}
+ul, ol {
+  font-size: 12px;
+}
+.ingredient {
+  line-height: 1.5;
 }
 .instruction {
   line-height: 1.5;
 }
 
-.table {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  /* margin-top: 20px; */
+table {
+  margin: auto;
+  border-spacing: 20px;
+  width: 100%;
+}
+hr.hrWidth {
+  width: 100%;
+margin: 0;
 }
 
-.classes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* margin: auto; */
-}
-.calo {
-  display: flex;
-  gap: 40px;
-  /* margin: auto; */
-}
-.carb {
-  display: flex;
-  gap: 95px;
-  /* margin: auto; */
-}
-.protein {
-  display: flex;
-  gap: 75px;
-  /* margin: auto; */
-}
-.fat {
-  display: flex;
-  gap: 104px;
-  /* margin: auto; */
-}
+
+
+
 
 @media (max-width: 468px) {
   body {
+    font-family: "Outfit", serif;
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: burlywood;
+    background-color: hsl(30, 54%, 90%);
+  }
+  p {
+    font-size: 10px;
   }
 
   .container {
